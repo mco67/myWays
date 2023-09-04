@@ -17,3 +17,5 @@ jobs:
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_MYWAYS_6FE42 }}'
           channelId: live
           projectId: myways-6fe42
+        env:
+            FIREBASE_CLI_EXPERIMENTS: webframeworks
