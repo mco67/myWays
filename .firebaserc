@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "myways-6fe42": {
+      "hosting": {
+        "myWays": [
+          "myways-6fe42"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "myways-6fe42"
+  }
+}
