@@ -14,6 +14,6 @@ export class AppComponent {
       tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { minZoom:3, maxZoom: 18, attribution: '...' })
     ],
     zoom: 5,
-    center: latLng(46.879966, -121.726909)
+    center: latLng(48.573405, 7.752111)
   };
 }
