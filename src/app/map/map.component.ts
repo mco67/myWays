@@ -14,10 +14,7 @@ export class MapComponent {
 
     public ngOnInit(): void {
 
-        const view = new View({
-            center: fromLonLat([5.8713, 45.6452]),
-            zoom: 19,
-        });
+        const view = new View({ center: fromLonLat([5.8713, 45.6452]), zoom: 19});
 
         const tileLayer = new TileLayer({
             source: new XYZ({
